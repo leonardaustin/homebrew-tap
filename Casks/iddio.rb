@@ -3,7 +3,7 @@ cask "iddio" do
   name "iddio"
   desc "Security gateway for AI agent access to Kubernetes clusters"
   homepage "https://iddio.dev"
-  version "2026.0220.2306"
+  version "2026.0221.1620"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "iddio" do
   on_macos do
     on_intel do
       url "https://github.com/leonardaustin/iddio/releases/download/v#{version}/iddio_#{version}_darwin_amd64.tar.gz"
-      sha256 "70f960fce66f5f0be0bd3b6eeb42dad6d63763be051d94b60568215419fb5b96"
+      sha256 "ec9e074c1daed2a13086282d2ea6dceda409c9d3e42e36235ad388f29c976c35"
     end
     on_arm do
       url "https://github.com/leonardaustin/iddio/releases/download/v#{version}/iddio_#{version}_darwin_arm64.tar.gz"
-      sha256 "748feede485ebc775712f46f6993427b61e4f17ce8e916ecb37c895e8785dd26"
+      sha256 "1597ad456262e2d7d556a0d16889dd9bcbabb08893cafc40126d44e2b7b552b6"
     end
   end
 
