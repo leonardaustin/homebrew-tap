@@ -4,27 +4,27 @@
 class Iddio < Formula
   desc "Security gateway for AI agent access to Kubernetes clusters"
   homepage "https://iddio.dev"
-  version "2026.0223.1833"
+  version "2026.0224.0009"
 
   on_macos do
     on_intel do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0223.1833/iddio_2026.0223.1833_darwin_amd64.tar.gz"
-      sha256 "0c5ee295dc97a0eb92de4f8537cf6f63c99e6e764eee1b1c5c04583a9d82c444"
+      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0224.0009/iddio_2026.0224.0009_darwin_amd64.tar.gz"
+      sha256 "88bbac10384a035caaa1cbf0dfc3c4016b49261ee7552a93270aa4b1b2247cb7"
     end
     on_arm do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0223.1833/iddio_2026.0223.1833_darwin_arm64.tar.gz"
-      sha256 "34c58bcdddce024fab332146a272cf1eafc18f3c543c8381034e05df618aba3a"
+      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0224.0009/iddio_2026.0224.0009_darwin_arm64.tar.gz"
+      sha256 "e7d90ed701f53766f01588e7fa4c099ec46f74cac76e746d528c6a0c6750f5e6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0223.1833/iddio_2026.0223.1833_linux_amd64.tar.gz"
-      sha256 "5542dfee7016da1cebb9ed6839c77200155698325041665396e443f6d05818a3"
+      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0224.0009/iddio_2026.0224.0009_linux_amd64.tar.gz"
+      sha256 "aa99e3eb5dabef14aa699dad61be1a833335c1cfab88a8290ef7db6ba0c33599"
     end
     on_arm do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0223.1833/iddio_2026.0223.1833_linux_arm64.tar.gz"
-      sha256 "b790980a564a9d3c1811712ea1dcfbeda58f880136e3e92a0c0045a72ce6a17e"
+      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0224.0009/iddio_2026.0224.0009_linux_arm64.tar.gz"
+      sha256 "11b0a5b76964dba611e57e88e6deb57175f7adb12f197949c3cbb439d7a510cc"
     end
   end
 
