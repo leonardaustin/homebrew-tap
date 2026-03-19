@@ -2,16 +2,16 @@
 # frozen_string_literal: true
 
 cask "clusterfudge" do
-  version "2026.0319.1610"
+  version "2026.0319.1825"
 
   on_arm do
-    sha256 "31ec8a262ce6c93a50c933b1b1b3d87510799c45e126c608e7e78329d2b02e3e"
-    url "https://github.com/leonardaustin/clusterfudge/releases/download/v2026.0319.1610/clusterfudge_darwin_arm64.dmg"
+    sha256 "861397670cf075542469597f373b972f73fb366be5e32a7d9dac8767d96f50ba"
+    url "https://github.com/leonardaustin/clusterfudge/releases/download/v2026.0319.1825/clusterfudge_darwin_arm64.dmg"
   end
 
   on_intel do
-    sha256 "9b9469834caa6a0defe4f9e62dce69b62372122fc05df31633d49ccc9e3ebf32"
-    url "https://github.com/leonardaustin/clusterfudge/releases/download/v2026.0319.1610/clusterfudge_darwin_amd64.dmg"
+    sha256 "06c15e6edf6898f744427f5491d6136668ea47ce691643fe7e7b8abbde6cecd9"
+    url "https://github.com/leonardaustin/clusterfudge/releases/download/v2026.0319.1825/clusterfudge_darwin_amd64.dmg"
   end
 
   name "Clusterfudge"
