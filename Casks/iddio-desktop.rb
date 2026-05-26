@@ -2,16 +2,16 @@
 # frozen_string_literal: true
 
 cask "iddio-desktop" do
-  version "2026.522.1429"
+  version "2026.526.1344"
 
   on_arm do
-    sha256 "67f190018ca71503e7ec7b39d6aeddb03e5750938af59cf4089c7d8113ae2949"
-    url "https://github.com/leonardaustin/iddio/releases/download/v26.0522.1429/iddio-desktop_v26.0522.1429_darwin_arm64.dmg"
+    sha256 "17df19109aabffd167cd2e6c940b415654e64168387631830bc0402a977c9bdc"
+    url "https://github.com/leonardaustin/iddio/releases/download/v26.0526.1344/iddio-desktop_v26.0526.1344_darwin_arm64.dmg"
   end
 
   on_intel do
-    sha256 "e7789795043bd15e61ecb25293f1a3a294635d284c46d11f913da563bc646c7b"
-    url "https://github.com/leonardaustin/iddio/releases/download/v26.0522.1429/iddio-desktop_v26.0522.1429_darwin_amd64.dmg"
+    sha256 "01cde98da07b34342813394b2d91bb45c5ed1d5f619726813ef3a0673238f328"
+    url "https://github.com/leonardaustin/iddio/releases/download/v26.0526.1344/iddio-desktop_v26.0526.1344_darwin_amd64.dmg"
   end
 
   name "Iddio"
