@@ -2,29 +2,29 @@
 # frozen_string_literal: true
 
 class Iddio < Formula
-  desc "Security gateway for AI agent access to Kubernetes clusters"
+  desc "Security gateway proxy for AI agent access to Kubernetes clusters"
   homepage "https://iddio.dev"
-  version "2026.0326.1537"
+  version "26.0602.2219"
 
   on_macos do
     on_intel do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0326.1537/iddio_2026.0326.1537_darwin_amd64.tar.gz"
-      sha256 "6e57e378340c0a7331266f99474cbd89cd0c78f805c48ba98ee30f67d9583989"
+      url "https://github.com/leonardaustin/iddio-mono/releases/download/v26.0602.2219/iddio-cli-darwin-amd64.tar.gz"
+      sha256 "ac3b0f932f81e82d6edcf5d1fb31249d65dabc2b42153deff9d0b43dfded240a"
     end
     on_arm do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0326.1537/iddio_2026.0326.1537_darwin_arm64.tar.gz"
-      sha256 "423f34b53add9f8323918efca3e0d2ad35b3763c05e6b2e2aff407b7c870d437"
+      url "https://github.com/leonardaustin/iddio-mono/releases/download/v26.0602.2219/iddio-cli-darwin-arm64.tar.gz"
+      sha256 "d4216acb21b477cbba6da805e3dbfce0fc9554bf5763e186b1d8131f254a8be7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0326.1537/iddio_2026.0326.1537_linux_amd64.tar.gz"
-      sha256 "4e2b8cd27e30a790ce242d1baebbf5dc8381dec2985be68b8a0ea0dee251a718"
+      url "https://github.com/leonardaustin/iddio-mono/releases/download/v26.0602.2219/iddio-cli-linux-amd64.tar.gz"
+      sha256 "c7ab988fe7cbb08d32cb349f0eb182304d1f803c60e1b26e40a496255e99ca70"
     end
     on_arm do
-      url "https://github.com/leonardaustin/iddio/releases/download/v2026.0326.1537/iddio_2026.0326.1537_linux_arm64.tar.gz"
-      sha256 "0b20baccad34c3b21f2c6b612554d13e38894baabd7cce6e22e6c0ef7c7a282d"
+      url "https://github.com/leonardaustin/iddio-mono/releases/download/v26.0602.2219/iddio-cli-linux-arm64.tar.gz"
+      sha256 "4efb75f89bc2e31f1fc4a796d15d760fabcec673f98a18b48f4f9db628caf952"
     end
   end
 
