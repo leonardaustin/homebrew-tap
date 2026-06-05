@@ -4,46 +4,46 @@
 class Iddio < Formula
   desc "Security gateway for AI agent access to Kubernetes clusters"
   homepage "https://iddio.dev"
-  version "26.0604.2243"
+  version "26.0605.1532"
 
   on_macos do
     on_intel do
-      url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-cli-darwin-amd64.tar.gz"
-      sha256 "513b52d011494ab273f490b4900d5a0126738e80a706ca38952cf9a51b328277"
+      url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-cli-darwin-amd64.tar.gz"
+      sha256 "725969e8072ea94f642668e820be17d6991a364073f4dab07399aa9cef12f7d2"
 
       resource "iddio-daemon" do
-        url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-daemon-darwin-amd64.tar.gz"
-        sha256 "ebe14d0a80c29aa8a2647aa70767ce96b5ba0d9f42c9be4afc0f76769487a3c8"
+        url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-daemon-darwin-amd64.tar.gz"
+        sha256 "ea378c94c8e340ac7a77750eb5ccd7064d8b02d0e03f4c27aac3f14936b69635"
       end
     end
     on_arm do
-      url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-cli-darwin-arm64.tar.gz"
-      sha256 "cd8b04aeff7ababbcb25eae1a309a5ce32b95fc1f9889bd048d744702de3abbe"
+      url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-cli-darwin-arm64.tar.gz"
+      sha256 "a5a8e21968f65b9a5e09a7d4515f90a6fdde3c75a4a2cce92a3db6521a56e2e4"
 
       resource "iddio-daemon" do
-        url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-daemon-darwin-arm64.tar.gz"
-        sha256 "534f11fdec40e31e406251782f0b1a56d5cb3e6b4e3f9897af1e1d1dd5274e0a"
+        url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-daemon-darwin-arm64.tar.gz"
+        sha256 "b20c9cf70e48d1ecc6d09741f55c1f5f15d00e17b5d569d7ec6cda54f156680c"
       end
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-cli-linux-amd64.tar.gz"
-      sha256 "618101625c458b3f8ddafdbda0ce3b388723dabebbc913598061e779e315d071"
+      url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-cli-linux-amd64.tar.gz"
+      sha256 "0bec29293db3586bc56cedc29df5e9ff2a80e34e80732edf0b432c5f8a65b3d2"
 
       resource "iddio-daemon" do
-        url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-daemon-linux-amd64.tar.gz"
-        sha256 "80fce0cbf02e9663c5d67352b87b32e48eeb3083042d0af1bc9534fd8df62500"
+        url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-daemon-linux-amd64.tar.gz"
+        sha256 "96fff2a3ba35c0f60b32b9a2626c8770d94bba1121c08749f889c894eae42e46"
       end
     end
     on_arm do
-      url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-cli-linux-arm64.tar.gz"
-      sha256 "6f1311a1b442c9ab4bec2e78f6b0206055bb57830b660c8d5eb8af0ed1bab4ba"
+      url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-cli-linux-arm64.tar.gz"
+      sha256 "e74b9f635e5eca679ab5299378a9c63e653fcfeba72d6d7ba686be899b09a025"
 
       resource "iddio-daemon" do
-        url "https://github.com/leonardaustin/iddio/releases/download/v26.0604.2243/iddio-daemon-linux-arm64.tar.gz"
-        sha256 "11dda3a6e9ce67bad18c12a88253a8c3823daba852775d8df7b27c8c6b011fb0"
+        url "https://github.com/leonardaustin/iddio/releases/download/v26.0605.1532/iddio-daemon-linux-arm64.tar.gz"
+        sha256 "4544bed638bbc0488cc19d7fd09e233cac805fdd39e6ebefc1f238e58c40f40c"
       end
     end
   end
